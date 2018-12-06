@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".usuarios.CadastrarUsuarioPassosActivity"
+        android:id="@+id/layoutCadastroPassos">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textoCadastroSeguranca"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="8dp" android:textAlignment="center"
+            android:textSize="20sp" android:id="@+id/textView"/>
+    <Button
+            android:text="@string/botaoSelfie"
+            android:layout_width="127dp"
+            android:layout_height="226dp"
+            android:id="@+id/botaoSelfieRG" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView"/>
+    <Button
+            android:text="@string/botaoFrenteRG"
+            android:layout_width="192dp"
+            android:layout_height="108dp"
+            android:id="@+id/botaoFrenteRG" app:layout_constraintStart_toEndOf="@+id/botaoSelfieRG"
+            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            app:layout_constraintHorizontal_bias="1.0" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"/>
+    <Button
+            android:text="@string/botaoVersoRG"
+            android:layout_width="192dp"
+            android:layout_height="108dp"
+            android:id="@+id/botaoVersoRG" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/botaoFrenteRG"
+            app:layout_constraintStart_toEndOf="@+id/botaoSelfieRG" android:layout_marginStart="16dp"
+            app:layout_constraintHorizontal_bias="0.948"/>
+
+</android.support.constraint.ConstraintLayout>

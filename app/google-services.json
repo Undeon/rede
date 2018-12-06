@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "844841068489",
+    "firebase_url": "https://rede-c9146.firebaseio.com",
+    "project_id": "rede-c9146",
+    "storage_bucket": "rede-c9146.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844841068489:android:0719890a3fe7a1b3",
+        "android_client_info": {
+          "package_name": "com.danielfonseca.rede"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844841068489-ql2f3kv21cqg1pa6ojapl8rgmtej2fce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.danielfonseca.rede",
+            "certificate_hash": "3e1180b2ebea0318f9ec59d4c77dfa314d487b2f"
+          }
+        },
+        {
+          "client_id": "844841068489-dipikk641u95r7l9gcuikmq3mg5ur8qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2Jki4zqjK0X4zCZn45pTdYZqdnJBIF7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844841068489-dipikk641u95r7l9gcuikmq3mg5ur8qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
