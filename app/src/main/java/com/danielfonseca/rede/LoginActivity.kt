@@ -10,8 +10,7 @@ import br.com.youse.forms.rxform.models.RxField
 import br.com.youse.forms.rxform.RxForm
 import br.com.youse.forms.validators.MinLengthValidator
 import br.com.youse.forms.validators.RequiredValidator
-import com.danielfonseca.rede.usuarios.CadastrarUsuarioDadosActivity
-import com.danielfonseca.rede.usuarios.CadastrarUsuarioPassosActivity
+import com.danielfonseca.rede.users.CadastrarUsuarioDadosActivity
 import com.danielfonseca.rede.validators.EmailValidator
 import com.google.firebase.auth.FirebaseAuth
 import com.jakewharton.rxbinding2.view.clicks

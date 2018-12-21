@@ -1,4 +1,4 @@
-package com.danielfonseca.rede.usuarios
+package com.danielfonseca.rede.users
 
 import android.content.Intent
 import android.os.Bundle
@@ -157,11 +157,8 @@ class CadastrarUsuarioDadosActivity : AppCompatActivity() {
                         .collection(usuario.nomeCompleto.toString())
                         .document("Cadastro")
                         .set(usuario)
-                        .addOnSuccessListener { void: Void? -> Toast.makeText(this, "Cadastrado inicial efetuado com sucesso.", Toast.LENGTH_LONG).show() }
-                        .addOnFailureListener {
-                            exception: java.lang.Exception -> println(exception.toString())
-
-                        }
+                        .addOnSuccessListener { Toast.makeText(this, "Cadastrado inicial efetuado com sucesso.", Toast.LENGTH_LONG).show() }
+                        .addOnFailureListener { exception: java.lang.Exception -> println(exception.toString()) }
                     val intent = Intent(this, CadastrarUsuarioPassosActivity::class.java)
                     startActivity(intent)
                     finish()

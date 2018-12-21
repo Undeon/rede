@@ -23,8 +23,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"/>
-        <activity android:name=".usuarios.CadastrarUsuarioDadosActivity"/>
-        <activity android:name=".usuarios.CadastrarUsuarioPassosActivity">
+        <activity android:name=".users.CadastrarUsuarioDadosActivity"/>
+        <activity android:name=".users.CadastrarUsuarioPassosActivity">
         </activity>
 
     </application>

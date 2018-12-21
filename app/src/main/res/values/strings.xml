@@ -22,4 +22,5 @@
     <string name="botaoSelfie">Selfie segurando o RG</string>
     <string name="botaoFrenteRG">Frente do RG</string>
     <string name="botaoVersoRG">Verso do RG</string>
+    <string name="permission_denied">Acesso negado</string>
 </resources>

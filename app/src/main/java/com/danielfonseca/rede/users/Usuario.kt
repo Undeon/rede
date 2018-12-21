@@ -1,4 +1,4 @@
-package com.danielfonseca.rede.usuarios
+package com.danielfonseca.rede.users
 
 class Usuario {
 
